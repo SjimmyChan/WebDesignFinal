@@ -1,0 +1,121 @@
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+nav{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-background{
+  width: 100%;
+  height: 120px;
+  background: #5b5a59;
+}
+
+.Global-Warning p, ul{
+  display: inline-block;
+}
+
+.option{
+  position: relative;
+  right: 1%;
+  padding-top: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 280px;
+}
+
+.option > li{
+  display: inline-block;
+}
+
+.log-in{
+  position: relative;
+  display: inline-block;
+  right: 0;
+}
+
+.log-in .navigation{
+  display: block;
+  position: absolute;
+  width: 300px;
+  top: 30px;
+  right: -235px;
+}
+
+.navigation{
+  z-index: 3;
+}
+
+.navigation ul{
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+.navigation li{
+  margin: 0;
+  margin-top: 5px;
+  width: 100px;
+}
+
+.head-photo{
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../img/broken_ice_land.jpg");
+}
+
+.gradients{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 120px;
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(rgba(255,255,100,0.4),rgba(255,255,220,0.1));
+}
+
+p{
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 50px;
+}
+
+.recent-council p:first-child {
+  font-size: 16px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.recent-council p:nth-child(2){
+  font-size: 24px;
+  text-align: center;
+}
+
+.Marquee{
+  width: 60%;
+  margin: auto;
+
+}
+
+.bx-viewport{
+  border-right: 2px solid #000;
+  border-radius: 10px;
+}
+
+li{
+  margin-left:  15px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+li a{
+  padding: 2px 20px 2px 20px;
+}
