@@ -1,0 +1,54 @@
+.Marquee{
+  width: 60%;
+  margin: auto;
+
+}
+
+.bxslider img, .text-content{
+  display: inline-block !important;
+}
+
+.bxslider img{
+  vertical-align: top;
+  width: 49%;
+}
+
+.bx-wrapper{
+  border-radius: 12px;
+  background-color: rgba(208, 202, 201, 0.64) !important;
+}
+
+.bx-viewport{
+  border-right: 2px solid #000;
+  border-radius: 10px;
+}
+
+.text-content{
+  height: 295px;
+  vertical-align: top;
+  padding-right: 70px;
+  box-sizing: border-box;
+  width: 50%;
+  background-color: rgba(220,220,220,0.8);
+}
+
+.text-content p:first-child{
+  font-size: 26px;
+}
+
+.text-content p:nth-child(2){
+  margin-top: 20px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+
+li{
+  margin-left:  15px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+li a{
+  padding: 2px 20px 2px 20px;
+}
