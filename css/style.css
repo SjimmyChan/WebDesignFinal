@@ -88,11 +88,11 @@ nav{
 }
 
 .head-photo{
-  height: 900px;
-  width: 90%;
+  height: 888px;
+  width: 100%;
   background-size: cover;
   margin: auto;
-  background-image: url("../img/broken_ice_land.jpg");
+  background-image: url("../img/broken_ice_land.png");
   box-shadow: 2px 2px 3px rgb(22, 23, 23);
 }
 
