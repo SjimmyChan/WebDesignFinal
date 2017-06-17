@@ -24,14 +24,14 @@
   background-color: rgba(206, 207, 175, 0.66);
 }
 
-.article-title{
+.edit-article-title{
   width: 5%;
   float: left;
   font-size: 20px;
   margin: 20px 0 0 5%;
 }
 
-#title-area{
+#edit-article-content{
   width: 80%;
   float: right;
   margin-top: 20px;
@@ -51,4 +51,26 @@
 #submit-btn:hover{
   color: rgb(15, 13, 34);
   background-color: rgba(204, 203, 114, 0.74);
+}
+
+.article-card{
+  position: relative;
+  right: 10%;
+  top: 100px;
+  width: 50% !important;
+}
+
+.article-title{
+
+}
+
+.line{
+  margin-top: 10px;
+  border: 1.5px solid black;
+}
+
+.article{
+  position: relative;
+  right: 45px;
+  bottom: 10px;
 }

@@ -16,13 +16,62 @@
 
   <script src="ckeditor/ckeditor.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/forum.js"></script>
+  <script src="js/article.js"></script>
   <link href="css/style.css" rel="stylesheet" type="text/css"/>
 
   <title>Global Warning - Profile</title>
 </head>
 <body>
+  <nav class = "Global-Warning">
+      <div class="title-icon">
+        <img src="img/polor-bear.png" class="polor-bear">
+        <p class="main-title">Global Warning</p>
+      </div>
+      <div class="option-log">
+        <ul class="option">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Recent News</a></li>
+          <li><a href="#">Related Article</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="forum.html">Forum</a></li>
+        </ul>
+        <div class="log-in">
+          <input class="burger-check" id="burger-check" type="checkbox">
+          <label for="burger-check" class="burger"></label>
+            <div id="navigation1" class="navigation">
+              <ul class="no-user">
+                <li><a href="Log.html">Log</a></li>
+              </ul>
 
-  <div class="article"></div>
+              <div class="has-user">
+                <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__supporting-text">
+                    <div class="mdl-card__supporting-text" id="user-name"></div>
+                  </div>
+
+                  <div id="profile-image"></div>
+
+                  <div class="mdl-card__actions mdl-card--border">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="logOut">
+                      Sign Out
+                    </button>
+
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="edit-profile">
+                      Edit Profile
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </nav>
+
+  <div class="demo-card-square mdl-card mdl-shadow--2dp article-card">
+    <div class="article-title"></div>
+    <div class="line"></div>
+    <div class="article"></div>
+  </div>
+
 </body>
 </html>
