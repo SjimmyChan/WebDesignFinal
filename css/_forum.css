@@ -2,6 +2,10 @@
   float: left;
 }
 
+#publish{
+  width: 50%;
+}
+
 #publish-btn{
   width: 15%;
   height: 10%;
@@ -18,4 +22,33 @@
 #publish-btn:hover{
   color: rgba(52, 48, 8, 0.87);
   background-color: rgba(206, 207, 175, 0.66);
+}
+
+.article-title{
+  width: 5%;
+  float: left;
+  font-size: 20px;
+  margin: 20px 0 0 5%;
+}
+
+#title-area{
+  width: 80%;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 7%;
+}
+
+#submit-btn{
+  margin: 10px auto 10px auto;
+  font-family: bradhitc !important;
+  font-size: 20px;
+  border-radius: 5px;
+  color: rgb(217, 198, 216);
+  background-color: rgb(15, 13, 34);
+}
+
+#submit-btn:hover{
+  color: rgb(15, 13, 34);
+  background-color: rgba(204, 203, 114, 0.74);
 }
