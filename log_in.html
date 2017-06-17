@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+
+  <link rel="stylesheet" href="css/material.min.css">
+  <script src="js/material.min.js"></script>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Chatroom</title>
+</head>
+<body>
+  <nav class = "Global-Warning">
+      <div class="title-icon">
+        <img src="img/polor-bear.png" class="polor-bear">
+        <p class="main-title">Global Warning</p>
+      </div>
+      <div class="option-log">
+        <ul class="option">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Recent News</a></li>
+          <li><a href="#">Related Article</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="forum.html">Forum</a></li>
+        </ul>
+        <div class="log-in">
+            <input class="burger-check" id="burger-check" type="checkbox">
+            <label for="burger-check" class="burger"></label>
+              <div id="navigation1" class="navigation">
+                <ul>
+                  <li><a href="#">Log</a></li>
+                </ul>
+              </div>
+        </div>
+      </div>
+  </nav>
+
+  <div class="mdl-card mdl-shadow--2dp main-card">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Log in</h2>
+    </div>
+
+    <div class="mdl-card__supporting-text">
+      <h4>Email</h4>
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="email">
+          <label class="mdl-textfield__label" for="sample1">Ex:qqq123@gmail.com</label>
+        </div>
+      </form>
+
+      <h4>Password</h4>
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="password" id="password">
+          <label class="mdl-textfield__label" for="sample1">Text...</label>
+        </div>
+      </form>
+
+      <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="btnLogIn">
+        Log in
+      </button>
+
+      <div class="mdl-card__supporting-text" id="sign-info"></div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

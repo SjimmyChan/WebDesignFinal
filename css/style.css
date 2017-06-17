@@ -2,6 +2,9 @@
 @import "_burger.css";
 @import "_progress.css";
 @import "_footer.css";
+@import "_log.css";
+@import "_profile.css";
+@import "_forum.css";
 
 @font-face {
   font-family: bradhitc;
@@ -10,7 +13,7 @@
 
 *{
   font-family: bradhitc;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 body{
@@ -76,6 +79,12 @@ nav{
   width: 310%;
 }
 
+.navigation{
+  top: 50px;
+  right: 5%;
+  width: 1100% !important;
+}
+
 .navigation li{
   margin: 0;
   margin-top: 5px;
@@ -85,6 +94,34 @@ nav{
   font-weight: bold;
   font-size: 16px;
   padding: 12%;
+}
+
+.demo-card-square.mdl-card {
+  border-radius: 10px;
+  background: linear-gradient(rgba(41, 42, 42, 0.58),rgba(255,255,225,0.28),rgba(41, 42, 42, 0.58));
+  width: 90%;
+  padding: 5%;
+}
+
+#logOut, #edit-profile{
+  font-family: bradhitc !important;
+  background-color: rgba(173, 138, 69, 0.72);
+  color: rgb(228, 223, 172);
+}
+
+#logOut:hover, #edit-profile:hover{
+  color: rgba(52, 48, 8, 0.87);
+  background-color: rgba(206, 207, 175, 0.66);
+}
+
+#user-name{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.title-text{
+  font-size: 16px;
 }
 
 .head-photo{
@@ -124,12 +161,4 @@ p{
   font-size: 38px;
   text-align: center;
   margin-top: 50px;
-}
-
-
-.log-background{
-  /*background-image: url('../img/ice_in_dawn.jpg');
-  background-size: cover;
-  width: 100%;
-  margin: auto;*/
 }

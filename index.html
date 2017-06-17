@@ -1,10 +1,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
     <script src="./js/jquery.bxslider.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/material.min.css">
     <link href="./css/jquery.bxslider.min.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
   <div class="contain">
@@ -20,18 +26,38 @@
               <li><a href="#">Recent News</a></li>
               <li><a href="#">Related Article</a></li>
               <li><a href="#">Research</a></li>
-              <li><a href="#">Donation</a></li>
+              <li><a href="forum.html">Forum</a></li>
             </ul>
             <div class="log-in">
                 <input class="burger-check" id="burger-check" type="checkbox">
                 <label for="burger-check" class="burger"></label>
                   <div id="navigation1" class="navigation">
-                    <ul>
-                      <li><a href="#">Log In</a></li>
-                      <li><a href="#">Sign In</a></li>
+                    <ul class="no-user">
+                      <li><a href="Log.html">Log</a></li>
                     </ul>
+
+                    <div class="has-user">
+                      <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__supporting-text">
+                          <div class="mdl-card__supporting-text" id="user-name"></div>
+                        </div>
+
+                        <div id="profile-image"></div>
+
+                        <div class="mdl-card__actions mdl-card--border">
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="logOut">
+                            Sign Out
+                          </button>
+
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="edit-profile">
+                            Edit Profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
             </div>
+
           </div>
       </nav>
       <div class="gradients"></div>

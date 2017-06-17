@@ -1,0 +1,43 @@
+body{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.log-card{
+  position: relative;
+  right: 10%;
+  top: 100px;
+  width: 45%;
+  font-weight: bold;
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  border-radius: 20px;
+}
+
+.mdl-card__title-text, .mdl-card__supporting-text h4, .msg, #btnSignUp{
+  font-family: bradhitc !important;
+  font-weight: bold;
+}
+
+#btnSignUp{
+  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+}
+
+.mdl-card__supporting-text a{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.email{
+  float: left;
+  margin-right: 5%;
+}
+
+.country{
+  float: left;
+  margin-right: 5%;
+}
+
+.clear:after {
+	content:"";
+	display: block;
+	clear: both;
+}

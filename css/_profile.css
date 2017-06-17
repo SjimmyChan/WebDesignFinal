@@ -1,0 +1,48 @@
+.main-card{
+  position: relative;
+  right: 10%;
+  top: 100px;
+  width: 30%;
+  border-radius: 10px;
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
+
+.profile-title{
+  font-size: 36px;
+  margin: auto;
+}
+
+.user-info{
+  font-size: 26px;
+}
+
+.info-row{
+  margin-bottom: 50px;
+}
+
+.edit-link{
+  font-size: 20px !important;
+  color: rgb(167, 86, 12);
+  text-decoration: none;
+  margin-left: 85%;
+}
+
+.datainfo {
+  width: 10%;
+}
+
+.saveBtn {
+  float: right;
+  width: 8%;
+  padding: 4px 9px;
+  background: #5972a8;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: 1px solid #1a356e; color: #fff;
+  -webkit-box-shadow: inset 0 1px 0 #8a9cc2;
+  -moz-box-shadow: inset 0 1px 0 #8a9cc2;
+  box-shadow:  1px 1px 0 rgb(9, 7, 8);
+  margin-bottom: 5px;
+  margin-top: -5px;
+  display: none;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/jquery.bxslider.min.js"></script>
+  <link href="./css/jquery.bxslider.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/material.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="js/material.min.js"></script>
+
+
+  <script src="js/script.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+  <title>Global Warning - Profile</title>
+</head>
+<body>
+    <nav class = "Global-Warning">
+        <div class="title-icon">
+          <img src="img/polor-bear.png" class="polor-bear">
+          <p class="main-title">Global Warning</p>
+        </div>
+        <div class="option-log">
+          <ul class="option">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Recent News</a></li>
+            <li><a href="#">Related Article</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="forum.html">Forum</a></li>
+          </ul>
+          <div class="log-in">
+            <input class="burger-check" id="burger-check" type="checkbox">
+            <label for="burger-check" class="burger"></label>
+              <div id="navigation1" class="navigation">
+                <ul class="no-user">
+                  <li><a href="Log.html">Log</a></li>
+                </ul>
+
+                <div class="has-user">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__supporting-text">
+                      <div class="mdl-card__supporting-text" id="user-name"></div>
+                    </div>
+
+                    <div id="profile-image"></div>
+
+                    <div class="mdl-card__actions mdl-card--border">
+                      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="logOut">
+                        Sign Out
+                      </button>
+
+                      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="edit-profile">
+                        Edit Profile
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </nav>
+
+      <div class="mdl-card mdl-shadow--2dp main-card">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text profile-title">Profile</h2>
+        </div>
+
+        <div class="mdl-card__supporting-text user-info">
+
+          <div class="info-row">
+            <label>Email: </label>
+            <span id="email-info" class="data-info"></span>
+            <!-- <a href="#" class=" edit-link edit-email">Edit</a>
+            <a class="save-email saveBtn">Save</a> -->
+          </div>
+
+          <div class="info-row">
+            <label>Name: </label>
+            <span id="name-info" class="data-info"></span>
+            <a href="#" class="edit-link edit-name">Edit</a>
+            <a class="save-name saveBtn">Save</a>
+          </div>
+
+          <div class="info-row">
+            <label>Country: </label>
+            <span id="country-info" class="data-info"></span>
+            <a href="#" class="edit-link edit-country">Edit</a>
+            <a class="save-country saveBtn">Save</a>
+          </div>
+
+          <div class="info-row">
+            <label>Age: </label>
+            <span id="age-info" class="data-info"></span>
+            <a href="#" class="edit-link edit-age">Edit</a>
+            <a class="save-age saveBtn">Save</a>
+          </div>
+
+        </div>
+      </div>
+</body>
+</html>
