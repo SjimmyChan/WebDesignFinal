@@ -38,26 +38,27 @@ nav{
 }
 
 .polor-bear{
-  width: 15%;
+  width: 12%;
   float: left;
   margin-top: 20px;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .main-title{
   float: right;
   margin-top: 50px;
-  margin-right: 21%;
+  margin-right: 15%;
 }
 
 .title-icon{
+  width: 38%;
   float: left;
-  margin-left: 3%;
+  margin-left: 1%;
 }
 
 .option-log{
   float: right;
-  margin-right: 5%;
+  margin-right: 7%;
   margin-top: 50px;
 }
 
@@ -71,6 +72,7 @@ nav{
   display: inline-block;
   bottom: 30px;
   left: 105%;
+  width: 60px;
 }
 
 .log-in .navigation{
@@ -85,15 +87,20 @@ nav{
   width: 1100% !important;
 }
 
+.navigation ul{
+  text-align: center;
+  margin-right: 1%;
+  padding: 2px 2px 2px 2px;
+}
+
 .navigation li{
   margin: 0;
   margin-top: 5px;
-  width: 90%;
+  float: right;
 }
 .navigation a{
   font-weight: bold;
   font-size: 16px;
-  padding: 12%;
 }
 
 .demo-card-square.mdl-card {
