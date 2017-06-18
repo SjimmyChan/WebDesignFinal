@@ -194,20 +194,21 @@ $(document).ready(function(){
      edit(e, this, 'age');
    });
 
-   dbUser.on("value", function(snapshot){
-     var auth = firebase.auth().currentUser;
-     currentUser = firebase.auth().currentUser;
-    //  console.log(snapshot.val());
-     snapshot.forEach(function(userId){
-       console.log(userId.key);
-       if(currentUser.email === userId.val().email){
-         console.log("Email exists.");
-       }
-       else{
-         console.log("Email doesn't exist.");
-       }
-     });
-   });
+  //  dbUser.on("value", function(snapshot){
+  //    var auth = firebase.auth().currentUser;
+  //    currentUser = firebase.auth().currentUser;
+  //   //  console.log(snapshot.val());
+  //    snapshot.forEach(function(userId){
+  //      console.log(userId.key);
+  //      console.log(currentUser.email,userId.val().email);
+  //      if(currentUser.email === userId.val().email){
+  //        console.log("Email exists.");
+  //      }
+  //      else{
+  //        console.log("Email doesn't exist.");
+  //      }
+  //    });
+  //  });
 
    function updateProfile(infoType, newval){
        currentUser = firebase.auth().currentUser;

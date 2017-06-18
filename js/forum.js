@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    var dbForum = firebase.database().ref().child('forum');
     const $articleList = $('#article-list');
     const $publishBtn = $('#publish-btn');
 
@@ -14,6 +15,13 @@ $(document).ready(function(){
           alert("Please log in first!");
           window.location.href = "log_in.html";
         }
+      });
+    });
+
+    dbForum.limitToLast(10).on("value", function(snapshot){
+      snapshot.forEach(function(data){
+        console.log(data.val().title);
+        $('#article-list').append("<br>" + "<a href='"+data.val().url+"'>"+data.val().title+"</a>");
       });
     });
 });
