@@ -1,10 +1,12 @@
 .main-card{
   position: relative;
-  right: 10%;
+  margin-right: auto;
+  margin-left: auto;
   top: 100px;
   width: 30%;
   border-radius: 10px;
   background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  display: block;
 }
 
 .profile-title{
