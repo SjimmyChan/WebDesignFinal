@@ -20,8 +20,14 @@ $(document).ready(function(){
 
     dbForum.limitToLast(10).on("value", function(snapshot){
       snapshot.forEach(function(data){
-        console.log(data.val().title);
-        $('#article-list').append("<br>" + "<a href='"+data.val().url+"'>"+data.val().title+"</a>");
+        console.log(data.key);
+        $('#article-list').append("<a href='article.html?"+data.key+"'>"+data.val().title+"</a>" + "<br>");
+        $('#article-author').append(data.val().author + "<br>");
+
+        $('#article-list').css({
+          "margin-right" : "10%"
+        });
+
       });
     });
 });

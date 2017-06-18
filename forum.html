@@ -12,6 +12,8 @@
 
   <link rel="stylesheet" href="css/material.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+  integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
   <script src="js/material.min.js"></script>
 
   <script src="ckeditor/ckeditor.js"></script>
@@ -20,7 +22,7 @@
 
   <link href="css/style.css" rel="stylesheet" type="text/css"/>
 
-  <title>Global Warning - Profile</title>
+  <title>Global Warning - Forum</title>
 </head>
 <body>
     <nav class = "Global-Warning">
@@ -34,7 +36,7 @@
             <li><a href="#">Recent News</a></li>
             <li><a href="#">Related Article</a></li>
             <li><a href="#">Research</a></li>
-            <li><a href="#">Donation</a></li>
+            <li><a href="forum.html">Forum</a></li>
           </ul>
           <div class="log-in">
             <input class="burger-check" id="burger-check" type="checkbox">
@@ -73,7 +75,18 @@
           <h2 class="mdl-card__title-text profile-title">Forum</h2>
         </div>
 
-        <div class="" id="article-list"></div>
+        <table class="pure-table">
+          <tr>
+            <td>Title</td>
+            <td colspan="5">Author</td>
+          </tr>
+
+          <tr>
+            <td id="article-list"></td>
+            <td colspan="5" id="article-author"></td>
+          </tr>
+        </table>
+
       </div>
 
       <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="publish-btn">

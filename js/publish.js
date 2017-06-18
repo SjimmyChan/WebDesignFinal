@@ -28,16 +28,32 @@ $(document).ready(function(){
               author : name,
               title : $articleTitle[0].value,
               content : content,
-              url : "article.html?" + currentUser.uid
+            });
+            dbForum.on("value", function(snapshot){
+              for(var i = 0; i < Object.keys(snapshot.val()).length; i++){
+                if(i === Object.keys(snapshot.val()).length - 1){
+                  var articleId = Object.keys(snapshot.val())[i];
+                  window.location.href = "article.html?" + articleId;
+                }
+              }
             });
           }
         });
       });
 
-      // $(".article").html(content);
+      // dbForum.on("child_added", function(snapshot){
+      //   //console.log(snapshot.key);
+      //   console.log(dbForum.child(snapshot.key));
+      //   dbForum.child(snapshot.key).on("child_added", function(data){
+      //      //console.log(data);
+      //     //location.search = snapshot.key;
+      //     //dbForum.child(snapshot.key).update({url : "artical.html" + location.search})
+      //   })
+      // });
 
+
+      // $(".article").html(content);
       // dbForum.push();
-       //window.location.href = "article.html?" + currentUser.uid;
        //location.search = currentUser.uid;
     });
 });
