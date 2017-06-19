@@ -28,6 +28,7 @@ $(document).ready(function(){
               author : name,
               title : $articleTitle[0].value,
               content : content,
+              userId : currentUser.uid
             });
             dbForum.on("value", function(snapshot){
               for(var i = 0; i < Object.keys(snapshot.val()).length; i++){
