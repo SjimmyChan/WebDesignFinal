@@ -29,8 +29,6 @@ $(document).ready(function(){
 
                 $('.author-info').html($image);
                 $('.author-info').append("<p>"+author+"</p>");
-                console.log(data.val().view);
-
               }
             });
           });
