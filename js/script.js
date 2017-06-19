@@ -75,8 +75,8 @@ $(document).ready(function(){
 
        $image.attr("src", imgUrl);
        $($image).css({
-         "width" : "50%",
-         "height" : "25%",
+         "width" : "160px",
+         "height" : "160px",  
          "border-radius" : "50%",
          "margin-left" : "20%",
          "margin-bottom" : "10%"

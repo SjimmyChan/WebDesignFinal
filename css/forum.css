@@ -83,4 +83,13 @@
   position: relative;
   right: 45px;
   bottom: 10px;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.author-info{
+  width: 20%;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: rgba(215, 205, 206, 0.59);
 }
