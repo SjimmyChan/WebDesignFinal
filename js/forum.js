@@ -18,12 +18,14 @@ $(document).ready(function(){
       });
     });
 
-    dbForum.limitToLast(1000).on("value", function(snapshot){
+    dbForum.limitToLast(1000).once("value", function(snapshot){
       snapshot.forEach(function(data){
         console.log(data.key);
         var link = "<a href='article.html?"+data.key+"'>"+data.val().title+"</a>";
         var author = data.val().author;
-        $('#article-list').append("<tr><td>"+ link +" </td><td>"+ author +"</td></tr>");
+        var views = data.val().view;
+        $('#article-list').append("<tr><td>"+ link +" </td>"+"<td>&nbsp &nbsp &nbsp"+
+        views + "</td>"+"<td>"+ author +"</td></tr>");
         // $('#article-list').append("<a href='article.html?"+data.key+"'>"+data.val().title+"</a>" + "<br>");
         // $('#article-author').append(data.val().author + "<br>");
         //
