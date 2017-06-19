@@ -1,10 +1,10 @@
-@import "_marquee.css";
-@import "_burger.css";
-@import "_progress.css";
-@import "_footer.css";
-@import "_log.css";
-@import "_profile.css";
-@import "_forum.css";
+@import "marquee.css";
+@import "burger.css";
+@import "progress.css";
+@import "footer.css";
+@import "log.css";
+@import "profile.css";
+@import "forum.css";
 
 @font-face {
   font-family: bradhitc;
