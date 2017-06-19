@@ -18,7 +18,7 @@ $(document).ready(function(){
       });
     });
 
-    dbForum.limitToLast(10).on("value", function(snapshot){
+    dbForum.limitToLast(1000).on("value", function(snapshot){
       snapshot.forEach(function(data){
         console.log(data.key);
         $('#article-list').append("<a href='article.html?"+data.key+"'>"+data.val().title+"</a>" + "<br>");

@@ -21,6 +21,12 @@ body{
   background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
 }
 
+#btnLogIn{
+  font-size: 22px;
+  font-family: bradhitc !important;
+  font-weight: bold;
+}
+
 .mdl-card__supporting-text a{
   font-weight: bold;
   font-size: 16px;
@@ -34,6 +40,11 @@ body{
 .country{
   float: left;
   margin-right: 5%;
+}
+
+#sign-info{
+  color: red;
+  font-size: 20px;
 }
 
 .clear:after {

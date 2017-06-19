@@ -55,13 +55,9 @@
 
 .article-card{
   position: relative;
-  right: 10%;
+  left: 25%;
   top: 100px;
-  width: 50% !important;
-}
-
-.table{
-
+  width: 55% !important;
 }
 
 .line{
