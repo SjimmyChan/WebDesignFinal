@@ -58,11 +58,25 @@
   left: 25%;
   top: 100px;
   width: 55% !important;
+  z-index: -1;
 }
 
 .line{
   margin-top: 10px;
   border: 1.5px solid black;
+}
+
+.pure-table{
+  width: 100%;
+}
+
+#article-list a{
+  text-decoration: none;
+}
+
+#article-list thead{
+  background-color: rgba(221, 195, 147, 0.76);
+  font-size: 24px;
 }
 
 .article{

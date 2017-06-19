@@ -75,6 +75,7 @@ nav{
   bottom: 30px;
   left: 105%;
   width: 60px;
+  z-index: 1;
 }
 
 .log-in .navigation{

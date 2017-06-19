@@ -21,12 +21,15 @@ $(document).ready(function(){
     dbForum.limitToLast(1000).on("value", function(snapshot){
       snapshot.forEach(function(data){
         console.log(data.key);
-        $('#article-list').append("<a href='article.html?"+data.key+"'>"+data.val().title+"</a>" + "<br>");
-        $('#article-author').append(data.val().author + "<br>");
-
-        $('#article-list').css({
-          "margin-right" : "10%"
-        });
+        var link = "<a href='article.html?"+data.key+"'>"+data.val().title+"</a>";
+        var author = data.val().author;
+        $('#article-list').append("<tr><td>"+ link +" </td><td>"+ author +"</td></tr>");
+        // $('#article-list').append("<a href='article.html?"+data.key+"'>"+data.val().title+"</a>" + "<br>");
+        // $('#article-author').append(data.val().author + "<br>");
+        //
+        // $('#article-list').css({
+        //   "margin-right" : "10%"
+        // });
 
       });
     });
