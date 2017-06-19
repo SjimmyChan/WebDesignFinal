@@ -38,6 +38,10 @@ nav{
   display: inline-block;
 }
 
+.icon-title{
+  vertical-align: top;
+}
+
 .polor-bear{
   width: 12%;
   float: left;
@@ -49,7 +53,7 @@ nav{
   font-size: 50px;
   float: right;
   margin-top: 50px;
-  margin-right: 15%;
+  margin-right: 5%;
 }
 
 .title-icon{
@@ -172,4 +176,8 @@ p{
   font-size: 38px;
   text-align: center;
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 1280px) {
+
 }
