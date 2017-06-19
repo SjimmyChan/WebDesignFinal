@@ -10,10 +10,12 @@ $(document).ready(function(){
    firebase.initializeApp(config);
 
    var dbUser = firebase.database().ref().child('user');
+   var dbForum = firebase.database().ref().child('forum');
    var currentUser = firebase.auth().currentUser;
 
    var photoURL;
    var $img = $('img');
+   var originalName;
 
    const $email = $('#email');
    const $password = $('#password');
@@ -159,6 +161,8 @@ $(document).ready(function(){
    function edit(e, btnType, saveType){
      e.preventDefault();
      var dataset = $(btnType).prev(".data-info");
+     originalName = dataset[0].textContent;
+     console.log(dataset[0].textContent);
      var saveBtn = $(btnType).next(".saveBtn");
      var id = dataset.attr("id");
      var newid = id + "-form";
@@ -209,11 +213,24 @@ $(document).ready(function(){
   //      }
   //    });
   //  });
+   function changeForumAuthor(originalName, newName){
+     console.log(originalName, newName);
+     dbForum.on("value", function(snapshot){
+       snapshot.forEach(function(data){
+         if(data.val().author === originalName){
+           dbForum.child(data.key).update({
+             author : newName
+           });
+         }
+         console.log(data.val().author);
+       });
+     });
+   }
 
-   function updateProfile(infoType, newval){
+   function updateProfile(infoType, newval, originalName){
        currentUser = firebase.auth().currentUser;
        var dbUserid = dbUser.child(currentUser.uid);
-       console.log(infoType , newval);
+       //console.log(infoType , newval);
        if(currentUser){
          if(infoType === 'email'){
            dbUserid.update({
@@ -224,6 +241,7 @@ $(document).ready(function(){
            dbUserid.update({
              name : newval
            });
+           changeForumAuthor(originalName, newval);
          }
          else if(infoType === 'country'){
            dbUserid.update({
@@ -247,11 +265,11 @@ $(document).ready(function(){
      var cinput = "#"+newid+"-form";//edit mode
      var einput = $(cinput);
      var newval = einput[0].value;
-     //console.log(einput[0].value);
+
      $(btnType).css("display", "none");
      einput.remove();
      dataset.html(newval);
-     updateProfile(infoType, newval);
+     updateProfile(infoType, newval, originalName);
 
      editLink.css({
        "display" : "block",
