@@ -32,6 +32,10 @@ nav{
   padding: 0;
 }
 
+.contain{
+  width: auto;
+}
+
 .Global-Warning > ul{
   color: rgb(57, 38, 18);
   text-shadow: 1px 1px 3px rgb(82, 52, 14);

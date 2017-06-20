@@ -116,6 +116,10 @@
 
   footer{
     padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .main-footer{
     width: 424px;
   }
 

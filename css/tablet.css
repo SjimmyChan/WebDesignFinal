@@ -4,20 +4,21 @@
   }
   .main-title{
     float: none;
-    font-size: 35px;
-    width: 100%;
-    margin-left: 80%;
+    font-size: 24px;
+    width: 250px;
+    margin-left: 85%;
+    margin-top: 10px;
   }
 
   .polor-bear{
     width: 20%;
     float: none;
-    margin-left: 125%;
+    margin-left: 115%;
   }
 
   .head-photo{
     width: 768px;
-    height: 390px;
+    height: 450px;
   }
 
   .log-in{
@@ -118,6 +119,10 @@
 
   footer{
     padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .main-footer{
     width: 768px;
   }
 
@@ -171,5 +176,16 @@
 
   #edit-article-content{
     width: 65%;
+  }
+
+  /*---------progress_1 2 3----------*/
+  .article-content{
+    font-size: 12px;
+    letter-spacing: 0.2rem !important;
+  }
+
+  .post-photo-1, .post-photo-2, .post-photo-3{
+    width: 70%;
+    border-radius: 10px;
   }
 }

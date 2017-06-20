@@ -86,6 +86,16 @@ $(document).ready(function(){
          });
        }
 
+       else if ($(window).width() <= 768){
+         $($image).css({
+           "width" : "80px",
+           "height" : "80px",
+           "border-radius" : "50%",
+           "margin-left" : "20%",
+           "margin-bottom" : "10%"
+         });
+       }
+
        else{
          $($image).css({
            "width" : "160px",
