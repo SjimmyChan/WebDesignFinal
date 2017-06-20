@@ -5,7 +5,7 @@
   .main-title{
     float: none;
     font-size: 16px;
-    width: 100%;
+    width: 288px;
     margin: 10px 0 0 83%;
   }
 
@@ -167,9 +167,17 @@
     width: 65%;
   }
 
+  #article-list {
+    font-size: 10px;
+  }
+
+  #article-list thead{
+    font-size: 16px;
+  }
+
   .article-card{
     position: relative;
-    width: 85% !important;
+    width: 90% !important;
     top: 50px;
     left: 10%;
   }
@@ -182,4 +190,30 @@
     font-size: 16px;
   }
 
+  /*---------progress_1 2 3----------*/
+  .article-content{
+    font-size: 12px;
+    letter-spacing: 0.2rem !important;
+  }
+
+  .post-photo-1, .post-photo-2, .post-photo-3{
+    width: 70%;
+    border-radius: 10px;
+  }
+
+  /*----------Recent News-------------*/
+  .news-title{
+    font-size: 24px;
+  }
+
+  .news-content p{
+    font-size: 12px;
+    letter-spacing: 0.2rem !important;
+  }
+
+  .news-content a{
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+  }
 }
