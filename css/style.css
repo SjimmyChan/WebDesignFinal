@@ -69,7 +69,7 @@ nav{
 
 .option-log{
   float: right;
-  margin-right: 7%;
+  margin-right: 0px;
   margin-top: 50px;
 }
 
@@ -81,7 +81,7 @@ nav{
 .log-in{
   /*position: static;*/
   display: inline-block;
-  margin-top: 6%;
+  margin-top: 50px;
   z-index: 1;
   position: absolute;
   right: 50px;
@@ -173,6 +173,6 @@ nav{
 
 @media only screen and (max-width: 1670px) {
   .main-title{
-    font-size: 30px;
+    font-size: 50px;
   }
 }
