@@ -44,6 +44,7 @@ nav{
 
 .icon-title{
   vertical-align: top;
+  position: relative;
 }
 
 .polor-bear{
@@ -57,13 +58,7 @@ nav{
   font-size: 50px;
   float: right;
   margin-top: 50px;
-  margin-right: 5%;
-}
-
-.title-icon{
-  width: 38%;
-  float: left;
-  margin-left: 1%;
+  text-align: center;
 }
 
 .option-log{
@@ -80,13 +75,10 @@ nav{
 .log-in{
   /*position: static;*/
   display: inline-block;
-  float: right;
-  margin-top: 30px;
+  margin-top: 20%;
   z-index: 1;
-  position: relative;
-  left:0;
-  transform:translateX(38%);
-  width: 250px;
+  position: absolute;
+  right: 8%;
 }
 
 .navigation{
