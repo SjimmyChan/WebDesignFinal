@@ -27,6 +27,12 @@
   }
 
   .log-in{
+    /*position: static;*/
+    display: inline-block;
+    margin-top: 21%;
+    z-index: 1;
+    position: absolute;
+    right: 8%;
     width: 0px;
   }
 
