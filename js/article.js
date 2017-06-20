@@ -4,7 +4,6 @@ $(document).ready(function(){
 
     dbForum.once("value", function(snapshot){
       var forumId = dbForum.child(snapshot.key).key;
-      //location.search = forumId;
       snapshot.forEach(function(data){
         //console.log(dbForum.child(data.key).key);
         if(location.search === '?' + dbForum.child(data.key).key){
