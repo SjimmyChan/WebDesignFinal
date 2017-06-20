@@ -14,13 +14,13 @@
   margin-right: auto;
 }
 
-.post-photo-1{
+.post-photo-2{
   height: 200px;
   width: 40%;
   background-size: cover;
   background-position: center;
   margin: auto;
-  background-image: url("../img/20124719956_5246911a1a_o.jpg");
+  background-image: url("../img/flint_teaser_rm_516164180_900x600.jpg");
   box-shadow: 2px 2px 3px rgb(22, 23, 23);
 }
 

@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/material.min.css">
+    <link href="./css/jquery.bxslider.min.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+  <div class="contain">
+      <nav class = "Global-Warning">
+          <div class="icon-title">
+            <div class="title-icon">
+              <img src="img/polor-bear.png" class="polor-bear">
+              <p class="main-title">Global Warning</p>
+            </div>
+          </div>
+          <div class="option-log">
+            <ul class="option">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Recent News</a></li>
+              <li><a href="Related_articles.html">Related Article</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="forum.html">Forum</a></li>
+            </ul>
+            <div class="log-in">
+                <input class="burger-check" id="burger-check" type="checkbox">
+                <label for="burger-check" class="burger"></label>
+                  <div id="navigation1" class="navigation">
+                    <ul class="no-user">
+                      <li><a href="Log.html">Log</a></li>
+                    </ul>
+
+                    <div class="has-user">
+                      <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__supporting-text">
+                          <div class="mdl-card__supporting-text" id="user-name"></div>
+                        </div>
+
+                        <div id="profile-image"></div>
+
+                        <div class="mdl-card__actions mdl-card--border">
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="logOut">
+                            Sign Out
+                          </button>
+
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="edit-profile">
+                            Edit Profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </nav>
+      <div class="gradients"></div>
+      <div class="clear"></div>
+      <div class="post-title">
+        <p>Blog Post</p>
+      </div>
+      <div class="post-photo-2"></div>
+        <div class="content-container">
+          <p class="article-content">For once, I am excited to report that there is good news on the Flint water crisis front. The pipes at the heart of the disaster are going to be replaced. For the first time in the three years since this Michigan city’s water was turned to poison, Flint’s citizens have a guarantee that the resources are in place to replace its estimated 18,000 lead pipes. And for the first time, they know when the pipes will be gone.</p>
+          <p class="article-content">Let’s be clear, Flint is not fixed. But things are going to get better.</p>
+          <p class="article-content">This did not happen because of the city, state, or federal governments that failed them. It happened because brave people in Flint stood up for their neighbors. They went to court. One of the genius parts of American environmental protections are the citizen suit provisions in our major environmental laws. When the government fails to protect its citizens, we are all empowered to go to court and force the government to do its job.</p>
+          <p class="article-content">That happened in Flint. After the city and state trashed the drinking water infrastructure through a series of mistakes and errors, we joined with the Concerned Pastors for Social Action and Flint resident Melissa Mays to petition the federal government to use its emergency powers to help the beleaguered city. They refused. So, along with ACLU Michigan, we sued the city and state. The Safe Drinking Water Act also has provisions for citizens to enforce drinking water rules. Though there have only been a handful of these kinds of cases filed under the act, we all thought Flint seemed like a textbook situation for this type of case.</p>
+          <p class="article-content">And today, that suit comes to the end with a settlement that guarantees that in three years, the lead pipes will be replaced. It guarantees that the state kicks in $67 million to help fix the mistakes, along with tens of millions more from federal sources. It guarantees extensive drinking water–testing programs far beyond what is required by the law for years to come—and added transparency with the data to help start rebuilding Flint residents' trust in what comes out of their taps. It guarantees continued funding for existing health programs to help residents deal with the aftermath of the water crisis. It keeps water distribution and sites open through the summer. It guarantees that the state will expand and maintain its filter installation program, including by conducting door-to-door visits to residents’ homes. And, importantly, in a city where trust in government has been frayed, all these guarantees can be enforced by a federal court. The government failed Flint, but the courts will ensure these important promises come to pass.</p>
+          <p class="article-content">This is the sort of work that makes me proud to be a part of NRDC. It is why I joined this organization. And I must admit that signing the settlement agreement on behalf of NRDC and litigators who have worked nonstop on this case for more than a year made me more than a little emotional. </p>
+          <p class="article-content">Flint has been living through this water crisis for three years. Three more years for all the pipes estimated to be in Flint to be replaced is longer still. This settlement does not signal the end to the water crisis, but it does move things firmly in the right direction. And it would not have happened without the determination of Melissa and the Concerned Pastors. There is plenty of time to talk about what else is needed in Flint. And how the issues at play in this city are coming to light in other places across the country. And how massive the broader problem of drinking water infrastructure has become…</p>
+          <p class="article-content">…But for today, let’s just celebrate good news for Flint. A city that deserves far more of it in the years to come.</p>
+        </div>
+    </div>
+    <footer>
+      <div class="information">
+        <ul class="information-list">
+          <li><a href="#">Home</a></li>
+          <li>Contact Us at</li>
+          <li><a href="#"><img src="./img/8800.png" width="35px" height="35px"></a></li>
+          <li><a href="#"><img src="./img/facebook.png" width="35px" height="35px"></a></li>
+          <li><a href="#"><img src="./img/YouTube-icon-dark.png" width="35px" height="35px"></a></li>
+        </ul>
+        <p>@NTUT WebDesign Final. All right reserved.</p>
+      </div>
+    </footer>
+  <!--footer>
+    <div class="information">
+      <ul class="information-list">
+        <li><a href="#">Home</a></li>
+        <li>Contact Us at</li>
+        <li><a href="#"><img src="./img/8800.png" width="35px" height="35px"></a></li>
+        <li><a href="#"><img src="./img/facebook.png" width="35px" height="35px"></a></li>
+        <li><a href="#"><img src="./img/YouTube-icon-dark.png" width="35px" height="35px"></a></li>
+      </ul>
+      <p>@NTUT WebDesign Final. All right reserved.</p>
+    </div>
+  </footer-->
+</html>
