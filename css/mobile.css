@@ -80,7 +80,7 @@
 
   .progress-article{
     position: relative;
-    width: 128%;
+    width: 100%;
   }
 
   .progress-content{
@@ -148,9 +148,9 @@
   /*---------------------------------*/
   .main-card{
     position: relative;
-    width: 100%;
+    width: 90% !important;
     top: 50px;
-    left: 1%;
+    left: 5%;
   }
 
   #publish{
@@ -164,6 +164,21 @@
 
   #edit-article-content{
     width: 65%;
+  }
+
+  .article-card{
+    position: relative;
+    width: 85% !important;
+    top: 50px;
+    left: 10%;
+  }
+
+  .info-row label{
+    font-size: 16px;
+  }
+
+  .data-info{
+    font-size: 16px;
   }
 
 }

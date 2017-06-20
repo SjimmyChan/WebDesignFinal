@@ -35,6 +35,11 @@ $(document).ready(function(){
           $('.article-title').css({
             "font-size" : "30px"
           });
+          if ($(window).width() < 425){
+            $('.article-title').css({
+              "font-size" : "16px"
+            });
+          }
           $('.article').html(data.val().content);
         }
 

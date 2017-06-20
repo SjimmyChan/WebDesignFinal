@@ -26,13 +26,6 @@ $(document).ready(function(){
         var views = data.val().view;
         $('#article-list').append("<tr><td>"+ link +" </td>"+"<td>&nbsp &nbsp &nbsp"+
         views + "</td>"+"<td>"+ author +"</td></tr>");
-        // $('#article-list').append("<a href='article.html?"+data.key+"'>"+data.val().title+"</a>" + "<br>");
-        // $('#article-author').append(data.val().author + "<br>");
-        //
-        // $('#article-list').css({
-        //   "margin-right" : "10%"
-        // });
-
       });
     });
 });

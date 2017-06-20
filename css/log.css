@@ -28,6 +28,9 @@ body{
   font-size: 22px;
   font-family: bradhitc !important;
   font-weight: bold;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgba(223, 238, 42, 0.72);
 }
 
 .mdl-card__supporting-text a{
