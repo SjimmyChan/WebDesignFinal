@@ -10,9 +10,8 @@
 
   .main-title{
     float: none;
-    font-size: 35px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 30px;
+    margin: 10px auto 0 auto;
   }
 
   .polor-bear{
@@ -23,7 +22,7 @@
 
   .head-photo{
     width: 100%;
-    height: 390px;
+    height: 500px;
   }
 
   .log-in{
@@ -132,6 +131,10 @@
     padding-bottom: 20px;
     width: 100%;
   }
+/*
+  .main-footer{
+    width: 768px;
+  }*/
 
   .information-list li{
     border: none;
@@ -183,5 +186,16 @@
 
   #edit-article-content{
     width: 65%;
+  }
+
+  /*---------progress_1 2 3----------*/
+  .article-content{
+    font-size: 12px;
+    letter-spacing: 0.2rem !important;
+  }
+
+  .post-photo-1, .post-photo-2, .post-photo-3{
+    width: 70%;
+    border-radius: 10px;
   }
 }
