@@ -5,7 +5,7 @@
   .main-title{
     float: none;
     font-size: 20px;
-    width: 150%;
+    width: 100%;
     margin: 20px 0 0 80%;
   }
 
@@ -16,7 +16,7 @@
   }
 
   .head-photo{
-    width: 500px;
+    width: 424px;
     height: 390px;
   }
 
@@ -80,13 +80,14 @@
 
   .progress-article{
     position: relative;
-    width: 128%;
+    width: 100%;
   }
 
   .progress-content{
     display: block;
     width: 70%;
-    margin-left: 15%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .progress-content img{
@@ -115,7 +116,7 @@
 
   footer{
     padding-bottom: 20px;
-    width: 500px;
+    width: 424px;
   }
 
   .information-list li{
