@@ -28,7 +28,8 @@ $(document).ready(function(){
               author : name,
               title : $articleTitle[0].value,
               content : content,
-              userId : currentUser.uid
+              userId : currentUser.uid,
+              view: 0
             });
             dbForum.on("value", function(snapshot){
               for(var i = 0; i < Object.keys(snapshot.val()).length; i++){
@@ -41,20 +42,5 @@ $(document).ready(function(){
           }
         });
       });
-
-      // dbForum.on("child_added", function(snapshot){
-      //   //console.log(snapshot.key);
-      //   console.log(dbForum.child(snapshot.key));
-      //   dbForum.child(snapshot.key).on("child_added", function(data){
-      //      //console.log(data);
-      //     //location.search = snapshot.key;
-      //     //dbForum.child(snapshot.key).update({url : "artical.html" + location.search})
-      //   })
-      // });
-
-
-      // $(".article").html(content);
-      // dbForum.push();
-       //location.search = currentUser.uid;
     });
 });
