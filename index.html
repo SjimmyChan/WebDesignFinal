@@ -1,6 +1,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/material.min.css"/>
+    <link rel="stylesheet" href="./css/jquery.bxslider.min.css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <link rel="stylesheet" media="screen and (max-width:425px)" href="./css/mobile.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
@@ -8,9 +15,7 @@
     <script src="js/material.min.js"></script>
     <script src="js/script.js"></script>
 
-    <link rel="stylesheet" href="css/material.min.css">
-    <link href="./css/jquery.bxslider.min.css" rel="stylesheet" />
-    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+
   </head>
   <body>
   <div class="contain">
@@ -23,13 +28,15 @@
             </div>
           </div>
           <div class="option-log">
-            <ul class="option">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Recent News</a></li>
-              <li><a href="Related_articles.html">Related Article</a></li>
-              <li><a href="#">Research</a></li>
-              <li><a href="forum.html">Forum</a></li>
-            </ul>
+            <div class="option-pc">
+              <ul class="option">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recent News</a></li>
+                <li><a href="Related_articles.html">Related Article</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="forum.html">Forum</a></li>
+              </ul>
+            </div>
             <div class="log-in">
                 <input class="burger-check" id="burger-check" type="checkbox">
                 <label for="burger-check" class="burger"></label>
@@ -57,6 +64,13 @@
                         </div>
                       </div>
                     </div>
+                    <ul class="option-mobile">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Recent News</a></li>
+                      <li><a href="Related_articles.html">Related Article</a></li>
+                      <li><a href="#">Research</a></li>
+                      <li><a href="forum.html">Forum</a></li>
+                    </ul>
                   </div>
             </div>
           </div>

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 425px){
+  .main-title{
+    float: none;
+    font-size: 24px;
+    width: 130%;
+    margin: 20px 0 0 80%;
+  }
+
+  .polor-bear{
+    width: 20%;
+    float: none;
+    margin-left: 125%;
+  }
+
+  .head-photo{
+    width: 508px;
+    height: 470px;
+  }
+
+  .navigation{
+    display: block;
+    position: absolute;
+    width: 540px !important;
+    background-color: rgb(222, 222, 210);
+  }
+
+  .option-pc{
+    display: none;
+  }
+
+  .option-mobile{
+    display: block;
+  }
+
+  .option-mobile li, .no-user li{
+    border: 0px;
+    width: 100%;
+  }
+
+}
