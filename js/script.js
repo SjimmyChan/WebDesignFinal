@@ -74,13 +74,27 @@ $(document).ready(function(){
        var $image = $("<img>");
 
        $image.attr("src", imgUrl);
-       $($image).css({
-         "width" : "160px",
-         "height" : "160px",  
-         "border-radius" : "50%",
-         "margin-left" : "20%",
-         "margin-bottom" : "10%"
-       });
+       $image.attr("class", "user-profile");
+
+       if ($(window).width() < 425){
+         $($image).css({
+           "width" : "60px",
+           "height" : "60px",
+           "border-radius" : "50%",
+           "margin-left" : "20%",
+           "margin-bottom" : "10%"
+         });
+       }
+
+       else{
+         $($image).css({
+           "width" : "160px",
+           "height" : "160px",
+           "border-radius" : "50%",
+           "margin-left" : "20%",
+           "margin-bottom" : "10%"
+         });
+       }
        $userName.html(username);
        $profileImage.html($image);
        $emailInfo.html(email);
