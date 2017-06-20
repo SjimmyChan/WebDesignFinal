@@ -23,6 +23,12 @@
   margin: auto;
   background-image: url("../img/20124719956_5246911a1a_o.jpg");
   box-shadow: 2px 2px 3px rgb(22, 23, 23);
+  border-radius: 10px;
+}
+
+.article-content{
+  font-size: 26px;
+  letter-spacing: 0.35rem !important;
 }
 
 .content-container{
