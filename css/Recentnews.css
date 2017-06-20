@@ -1,0 +1,44 @@
+.news-list{
+  margin-top: 100px;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.news-title{
+  font-size: 50px;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.news-content{
+  margin-top: 30px;
+  border-top: 3px solid;
+  border-color: gray;
+}
+
+.news-content p{
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.news-content p:first-child{
+  font-weight: 900;
+}
+
+.news-content p:nth-child(2){
+  margin-bottom: 20px;
+}
+
+.news-content a{
+  text-decoration: none;
+  color: blue;
+}
+
+.news-content a:hover{
+  color: blue;
+  opacity: 0.5;
+}
