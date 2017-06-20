@@ -2,13 +2,16 @@ $(document).ready(function(){
     var dbForum = firebase.database().ref().child('forum');
     var dbUser = firebase.database().ref().child('user');
 
-    dbForum.on("value", function(snapshot){
+    dbForum.once("value", function(snapshot){
       var forumId = dbForum.child(snapshot.key).key;
       //location.search = forumId;
       snapshot.forEach(function(data){
         //console.log(dbForum.child(data.key).key);
         if(location.search === '?' + dbForum.child(data.key).key){
-          dbUser.on("value", function(snapshot){
+          dbForum.child(data.key).update({
+            view : data.val().view+1
+          });
+          dbUser.once("value", function(snapshot){
             snapshot.forEach(function(userInfo){
               if(userInfo.key === data.val().userId){
                 var $image = $("<img>");
