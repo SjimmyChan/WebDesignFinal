@@ -4,9 +4,9 @@
   }
   .main-title{
     float: none;
-    font-size: 20px;
+    font-size: 16px;
     width: 100%;
-    margin: 20px 0 0 80%;
+    margin: 10px 0 0 83%;
   }
 
   .polor-bear{
@@ -61,12 +61,13 @@
   }
 
   .recent-council p:first-child{
-    margin-left: 20%;
+    margin-left: 10%;
     font-size: 20px;
+    z-index: 0;
   }
 
   .recent-council p:nth-child(2){
-    margin-left: 20%;
+    margin-left: 10%;
     font-size: 20px;
   }
 
@@ -75,7 +76,7 @@
   }
 
   .progress{
-    margin: 30px 0 20px 120px;
+    margin: 30px 0 20px 20px;
   }
 
   .progress-article{
@@ -86,8 +87,7 @@
   .progress-content{
     display: block;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
 
   .progress-content img{
@@ -149,9 +149,9 @@
   /*---------------------------------*/
   .main-card{
     position: relative;
-    width: 100%;
+    width: 90% !important;
     top: 50px;
-    left: 1%;
+    left: 5%;
   }
 
   #publish{
@@ -165,6 +165,21 @@
 
   #edit-article-content{
     width: 65%;
+  }
+
+  .article-card{
+    position: relative;
+    width: 85% !important;
+    top: 50px;
+    left: 10%;
+  }
+
+  .info-row label{
+    font-size: 16px;
+  }
+
+  .data-info{
+    font-size: 16px;
   }
 
 }
