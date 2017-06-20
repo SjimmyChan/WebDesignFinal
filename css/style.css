@@ -5,6 +5,7 @@
 @import "log.css";
 @import "profile.css";
 @import "forum.css";
+@import "progress_1.css";
 
 @font-face {
   font-family: bradhitc;
@@ -21,10 +22,6 @@ body{
   padding: 0;
   margin: 0;
   width: 100%;
-}
-
-.contain{
-  background: linear-gradient(rgba(41, 42, 42, 0.97),rgba(255,255,225,0.01));
 }
 
 nav{
