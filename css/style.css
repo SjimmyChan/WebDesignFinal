@@ -64,7 +64,8 @@ nav{
 }
 
 .option{
-  margin-right: 200px;
+  width: 100%;
+  margin-right: 166px;
 }
 
 .option-log{
@@ -81,10 +82,12 @@ nav{
 .log-in{
   /*position: static;*/
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 110px;
   z-index: 1;
   position: absolute;
-  right: 50px;
+  right: 0px;
+  width: 30%;
+  /*transform: translateX(66px);*/
 }
 
 .navigation{
@@ -173,6 +176,30 @@ nav{
 
 @media only screen and (max-width: 1670px) {
   .main-title{
-    font-size: 50px;
+    font-size: 30px;
   }
+}
+
+@media only screen and (max-width: 1300px) {
+  .main-title{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .title-icon{
+    margin-left: 37%;
+  }
+
+  .option{
+    margin-right: 80px;
+  }
+
+  .log-in{
+    left: 10px;
+  }
+
+  .navigation{
+    left: 25%;
+  }
+
 }

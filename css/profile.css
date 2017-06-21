@@ -1,8 +1,8 @@
 .main-card{
   position: relative;
-  left: 25%;
-  top: 100px;
-  width: 30%;
+  right: 0%;
+  top: 200px;
+  width: 45%;
   border-radius: 10px;
   background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
   z-index: 0;

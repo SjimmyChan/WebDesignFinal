@@ -39,6 +39,13 @@ $(document).ready(function(){
 
    const $articleList = $('#article-list');
 
+   if($(window).width() <= 1300 && $(window).width() > 768){
+     $('no.user').css({
+       "position" : "relative",
+       "left" : "33px"
+     });
+   }
+
    /*------------Set image------------*/
    var storageRef = firebase.storage().ref();
 
@@ -116,7 +123,10 @@ $(document).ready(function(){
 
    firebase.auth().onAuthStateChanged(function(currentUser){
      if(currentUser){
-       $(".no-user").css({"display" : "none"});
+       $(".no-user").css({
+         "display" : "none"
+
+       });
        findData(currentUser);
        console.log("Logged In");
      }

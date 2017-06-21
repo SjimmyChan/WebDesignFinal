@@ -6,6 +6,7 @@
 
   .title-icon{
     width: 100%;
+    margin-left: 0px;
   }
 
   .main-title{
@@ -32,14 +33,17 @@
     z-index: 1;
     position: absolute;
     right: 8%;
+    left: auto;
     width: 0px;
   }
 
   .navigation{
     display: block;
     position: relative;
+    left:0px;
     right: 305px;
     width: 300px;
+    transform: translateX(-300px);
     background-color: rgb(222, 222, 210);
   }
 
@@ -174,6 +178,13 @@
     top: 50px;
     left: 1%;
   }
+  .article-card{
+    width: 100% !important;
+  }
+
+  .article{
+    right: 0px;
+  }
 
   #publish{
     width: 100%;
@@ -186,6 +197,11 @@
 
   #edit-article-content{
     width: 65%;
+  }
+
+  #logOut, #edit-profile{
+    font-size: 8px;
+    color: rgb(40, 30, 13);
   }
 
   /*---------progress_1 2 3----------*/
