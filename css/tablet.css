@@ -213,6 +213,7 @@
   .article-content{
     font-size: 12px;
     letter-spacing: 0.2rem !important;
+    line-height: 20px;
   }
 
   .post-photo-1, .post-photo-2, .post-photo-3{

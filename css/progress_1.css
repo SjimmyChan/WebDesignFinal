@@ -3,6 +3,7 @@
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 .post-title p{
@@ -27,6 +28,7 @@
 }
 
 .article-content{
+  line-height: 40px;
   font-size: 26px;
   letter-spacing: 0.35rem !important;
 }

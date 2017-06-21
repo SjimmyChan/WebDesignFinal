@@ -4,7 +4,7 @@
   }
   .main-title{
     float: none;
-    font-size: 20px;
+    font-size: 26px;
     width: 288px;
     margin: 10px auto 0 auto;
   }
@@ -211,6 +211,7 @@
   .article-content{
     font-size: 12px;
     letter-spacing: 0.2rem !important;
+    line-height: 20px;
   }
 
   .post-photo-1, .post-photo-2, .post-photo-3{
