@@ -205,6 +205,10 @@
     color: rgb(40, 30, 13);
   }
 
+  .email, .country{
+    float: none;
+  }
+
   /*---------progress_1 2 3----------*/
   .article-content{
     font-size: 12px;
