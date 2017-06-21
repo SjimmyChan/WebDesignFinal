@@ -4,13 +4,13 @@
   }
   .main-title{
     float: none;
-    font-size: 16px;
+    font-size: 20px;
     width: 288px;
     margin: 10px auto 0 auto;
   }
 
   .polor-bear{
-    width: 10%;
+    width: 18%;
     float: none;
     margin-left: 45%;
   }
@@ -32,14 +32,13 @@
     display: block;
     position: relative;
     right: 305px;
-    width: 300px;
+    width: 250px;
     background-color: rgb(222, 222, 210);
   }
 
   .userInfo-card{
     background-color: none !important;
-    width: 55% !important;
-    margin-left: 45%;
+    width: 100% !important;
   }
 
   #user-name{
@@ -169,6 +168,7 @@
   #publish-btn{
     width: 60%;
     font-size: 16px;
+    margin-right: 20%;
   }
 
   #edit-article-content{

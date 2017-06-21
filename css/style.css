@@ -129,9 +129,10 @@ nav{
 
 }
 
+
 .demo-card-square.mdl-card {
   border-radius: 10px;
-  background: linear-gradient(rgba(41, 42, 42, 0.58),rgba(255,255,225,0.28),rgba(41, 42, 42, 0.58));
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   width: 100%;
   padding: 5%;
 }
@@ -150,7 +151,7 @@ nav{
 #user-name{
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .title-text{
