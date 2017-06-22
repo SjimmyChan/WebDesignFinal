@@ -2,21 +2,35 @@
   float: left;
 }
 
+.forum-card{
+  /*position: relative;
+  right: 10%;*/
+  margin-top: 100px;
+  width: 90%;
+  border-radius: 10px;
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  z-index: 0;
+  transform: translateX(20px);
+}
+
+.forum-title{
+  width: 555px;
+  margin-left: 20%;
+  font-size: 36px;
+}
+
 #publish{
   width: 50%;
 }
 
 #publish-btn{
-  width: 15%;
-  height: 10%;
+  width: 200px;
+  height: 55px;
   font-family: bradhitc !important;
-  font-size: 25px;
+  font-size: 16px;
   background-color: rgba(173, 138, 69, 0.72);
   color: rgb(228, 223, 172);
-  float: right;
-  padding: 15px;
-  margin-top: 150px;
-  margin-right: 1%;
+  margin-left: 30%;
 }
 
 #publish-btn:hover{
@@ -54,11 +68,24 @@
 }
 
 .article-card{
-  position: relative;
-  left: 5%;
-  top: 100px;
-  width: 55% !important;
+  background-image: linear-gradient(0deg, #f5f7fa 50%, #c3cfe8 100%) !important;
+  margin-top: 100px;
+  width: 90% !important;
+  border-radius: 10px;
+  transform: translateY(30px);
   z-index: 0;
+}
+.publish-card{
+  top: 100px;
+  width: 80% !important;
+  border-radius: 10px;
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  z-index: 0;
+}
+
+.publish-title{
+  font-size: 36px;
+  margin: auto;
 }
 
 .line{
@@ -80,10 +107,7 @@
 }
 
 .article{
-  position: relative;
-  right: 45px;
-  bottom: 10px;
-  margin-top: 80px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -92,4 +116,8 @@
   border-radius: 20px;
   margin-top: 20px;
   background-color: rgba(215, 205, 206, 0.59);
+}
+
+.author-info p{
+  margin-left: 39px;
 }

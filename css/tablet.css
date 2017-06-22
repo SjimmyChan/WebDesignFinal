@@ -174,15 +174,33 @@
   .main-card{
     position: relative;
     width: 100%;
-    top: 50px;
+    top: 0px;
     left: 1%;
   }
+
+  .forum-card{
+    transform: translateX(0px);
+    width: 100%;
+  }
+
   .article-card{
     width: 100% !important;
+  }
+  
+  .publish-card{
+    width: 100% !important;
+  }
+
+  .publish-title{
+    font-size: 25px;
   }
 
   .article{
     right: 0px;
+  }
+
+  .article-title{
+    font-size: 20px !important;
   }
 
   #publish{
@@ -190,10 +208,10 @@
   }
 
   #publish-btn{
-    width: 60%;
-    font-size: 16px;
-    margin-right: 20%;
-    margin-bottom: 10%;
+    font-size: 10px;
+    color: black;
+    height: 32px;
+    margin: auto;
   }
 
   #edit-article-content{
